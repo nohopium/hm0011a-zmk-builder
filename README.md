@@ -11,7 +11,7 @@ podman build \
 
 2. Build the firmware
 ```sh
-podman compose run zmk-builedr build <target>
+podman compose run zmk-builder build <target>
 ```
 
 ## Targets
