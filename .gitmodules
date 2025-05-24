@@ -1,0 +1,12 @@
+[submodule "zmk-config"]
+	path = zmk-config
+	url = https://github.com/nohopium/zmk-config
+[submodule "zmk-module-hm0011a"]
+	path = zmk-module-hm0011a
+	url = https://github.com/nohopium/zmk-module-hm0011a
+[submodule "zmk"]
+	path = zmk
+	url = https://github.com/zmkfirmware/zmk
+[submodule "zmk-rgbled-widget"]
+	path = zmk-rgbled-widget
+	url = https://github.com/caksoylar/zmk-rgbled-widget

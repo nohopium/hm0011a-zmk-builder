@@ -1,0 +1,14 @@
+services:
+  zmk-builder:
+    image: zmk-builder
+    container_name: zmk-builder_container
+    security-opt:
+      - label=disable
+    working_idr: /workspace/zmk
+    volumes:
+      - ./zmk:/workspace/zmk
+      - ./:/workspace/zmk-modules
+      - ./hm0011a_builder.sh:/usr/bin/build
+    ports:
+      - "3030:3030"
+    command: "build"
